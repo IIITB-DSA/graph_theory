@@ -32,6 +32,7 @@ int32_t main(){
 	//dfs from root node assume 1 here..
 	
 	int cc=0;	// init the connected component count..
+	//assuming 1 based indexing..
 	for(int i=1 ; i<n+1 ; i++){
 		if(!vis[i]){
 			dfs(i); cc++;
